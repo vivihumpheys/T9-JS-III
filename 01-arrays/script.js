@@ -1,4 +1,8 @@
 // map(): faz uma iteração com todos os elementos da lista e retorna outra
+// map():
+// input: Array
+// output: Array de mesmo tamanho
+
 // 1) Adicionar "a" no final das palavras
 const profissionais = ["desenvolvedor", "programador", "autor", "vereador", "professor"];
 const profissionaisMelhores = profissionais.map(
