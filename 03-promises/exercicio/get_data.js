@@ -8,7 +8,7 @@ function get_data(url) {
     // Cria uma nova request
     const req = new XMLHttpRequest()
 
-    // Cria a request
+    // Abre a request
     req.open('GET', url)
 
     // Captura o evento de 'onload', que é quando a 
@@ -36,3 +36,7 @@ function get_data(url) {
     req.send()
   })
 }
+
+
+    
+  
